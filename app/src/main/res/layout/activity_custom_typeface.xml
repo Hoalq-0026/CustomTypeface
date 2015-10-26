@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Subpixel On"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subpixel_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Det var en gång en söt liten flicka. Alla som såg henne tyckte om henne. Men allra mest tyckte hennes mormor om henne. En gång gav hon flickan en mycket söt luva av röd sammet. Den passade henne så bra, att hon inte ville ha någonting annat på sig. Det var därför som sedan fick heta Rödluvan."
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_bright" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Subpixel Off"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subpixel_off"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Det var en gång en söt liten flicka. Alla som såg henne tyckte om henne. Men allra mest tyckte hennes mormor om henne. En gång gav hon flickan en mycket söt luva av röd sammet. Den passade henne så bra, att hon inte ville ha någonting annat på sig. Det var därför som sedan fick heta Rödluvan."
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/holo_blue_bright" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Subpixel Mix"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subpixel_mix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Det var en gång en söt liten flicka. Alla som såg henne tyckte om henne. Men allra mest tyckte hennes mormor om henne. En gång gav hon flickan en mycket söt luva av röd sammet. Den passade henne så bra, att hon inte ville ha någonting annat på sig. Det var därför som sedan fick heta Rödluvan."
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</ScrollView>
